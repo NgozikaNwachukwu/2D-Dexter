@@ -1,0 +1,32 @@
+body{
+    background-color: #cd678c;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*to centre the solid canvas*/
+    width: 600px;
+    height: 580px;
+}
+#intro {
+    position: absolute;
+    background-color: #d0f6fc;
+	width: 300px;
+    left: 75%;
+    top: 160px;
+	text-align: center;
+}
+
+.options {
+    position:absolute;
+    z-index: 10;
+    top: 50px;
+    left: 15%;
+    transform: translateX(-50%);
+
+}
+.options, select, option {
+    font-size: 20px;
+}
