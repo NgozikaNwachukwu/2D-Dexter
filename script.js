@@ -11,7 +11,7 @@ const ctx = canvas.getContext('2d');
 const CANVAS_WIDTH = canvas.width= 600;  //scaling
 const CANVAS_HEIGHT = canvas.height= 580; 
 const animationImage = new Image(); //making image variable
-animationImage.src = 'C:/Users/Lenovo/Desktop/2d game/animation.png';
+animationImage.src = './animation.png';
 const spriteWidth = 575;   // 6876px(the amount of width pixels of the animation image)/12(number of columns of the image)= 573 but its too small so 575 is used
 const spriteHeight = 523;  // 5230px(amount of height pixels)/12(number of rows)=523
 //let frameX = 0;
