@@ -19,7 +19,7 @@ const spriteHeight = 523;  // 5230px(amount of height pixels)/12(number of rows)
 //to mamke it easier to switch btw frames
 
 let speedControl = 0; //for speed control
-const slowerFrames = 6; //slow down or speed up
+const slowerFrames = 7; //slow down or speed up
 
 const dogAnimations = [];
 const currentState = [
